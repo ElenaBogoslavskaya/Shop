@@ -1,11 +1,11 @@
 body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
-  font-size: 14px;
+  font-size: 40px;
 }
 
-.conteiner {
-  margin: 0px 166px;
+.container {
+  margin: 0rem 11.857rem;
 }
 
 .header {
@@ -16,7 +16,7 @@ body {
 }
 
 .header-line {
-  padding-top: 50px;
+  padding-top: 3.571rem;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -27,7 +27,7 @@ body {
   text-decoration: none;
   font-weight: 700;
   font-size: 1rem;
-  margin-right: 25px;
+  margin-right: 1.785rem;
   transition: color 0.3s linear;
 }
 
@@ -37,15 +37,15 @@ body {
 
 .cart {
   position: relative;
-  border-right: 1px solid #ffffff;
-  padding-right: 10px;
-  height: 50px;
+  border-right: 0.071rem solid #ffffff;
+  padding-right: 0.714rem;
+  height: 3.571rem;
 }
 
 .cart-img {
   position: absolute;
-  top: 18px;
-  right: 7px;
+  top: 1.285rem;
+  right: 0.5rem;
 }
 
 .num {
@@ -74,7 +74,7 @@ body {
 .button {
   background-color: orangered;
   color: white;
-  padding: 14px 19px;
+  padding: 1rem 1.357rem;
   font-size: 1rem;
   font-weight: 700;
   transition: background-color 0.2s linear;
@@ -96,8 +96,8 @@ body {
 
   text-align: center;
   position: absolute;
-  left: 175px;
-  top: 222px;
+  left: 12.5rem;
+  top: 15.857rem;
 }
 .header-subtitle {
   font-size: 5.714rem;
