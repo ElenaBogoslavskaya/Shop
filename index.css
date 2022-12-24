@@ -1,21 +1,22 @@
 body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
+  font-size: 14px;
 }
 
-.conteiner {
-  margin: 0px 166px;
+.container {
+  margin: 0rem 11.857rem;
 }
 
 .header {
-  background-image: url(hero\ image.jpg);
+  background-image: url(assets/hero-image.jpg);
   height: 100vh;
   background-repeat: no-reapeat;
   background-size: cover;
 }
 
 .header-line {
-  padding-top: 50px;
+  padding-top: 3.571rem;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -25,8 +26,8 @@ body {
   color: white;
   text-decoration: none;
   font-weight: 700;
-  font-size: 14px;
-  margin-right: 25px;
+  font-size: 1rem;
+  margin-right: 1.785rem;
   transition: color 0.3s linear;
 }
 
@@ -36,20 +37,21 @@ body {
 
 .cart {
   position: relative;
-  border-right: 1px solid #ffffff;
-  padding-right: 10px;
-  height: 50px;
+  border-right: 0.071rem solid #ffffff;
+  padding-right: 0.714rem;
+  height: 3.571rem;
 }
 
 .cart-img {
   position: absolute;
-  top: 18px;
-  right: 7px;
+  top: 1.285rem;
+  right: 0.5rem;
 }
 
 .num {
   color: #ffffff;
   text-decoration: none;
+  font-size: 1.29rem;
   font-weight: 700;
   transition: color 0.3s linear;
 }
@@ -59,7 +61,7 @@ body {
 }
 
 .phone-text {
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 400;
   color: #ffffff;
 }
@@ -72,7 +74,8 @@ body {
 .button {
   background-color: orangered;
   color: white;
-  padding: 14px 19px;
+  padding: 1rem 1.357rem;
+  font-size: 1rem;
   font-weight: 700;
   transition: background-color 0.2s linear;
 }
@@ -88,17 +91,54 @@ body {
 .header-title {
   color: orangered;
   font-family: "Tinos", serif;
-  font-size: 50px;
+  font-size: 3.571rem;
   font-weight: 400;
 
   text-align: center;
   position: absolute;
-  left: 175px;
-  top: 222px;
+  left: 12.5rem;
+  top: 15.857rem;
 }
-
+.header-subtitle {
+  font-size: 5.714rem;
+}
 .header-suptitle {
   color: #ffffff;
-  font-size-adjust: 18px;
+  font-size: 1.29rem;
   font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  margin-bottom: 0.857rem;
+}
+.header-suptitle:after {
+  position: absolute;
+  content: " ";
+  height: 0.142rem;
+  width: 4.357rem;
+  background-color: #ffffff;
+  top: 11.56rem;
+  left: 5.5rem;
+}
+.header-suptitle:before {
+  position: absolute;
+  content: " ";
+  height: 0.142rem;
+  width: 4.357rem;
+  background-color: #ffffff;
+  top: 11.56rem;
+  left: 24.5rem;
+}
+.button-view {
+  position: relative;
+}
+.button-2 {
+  position: absolute;
+  top: 30.285rem;
+  left: 24.357rem;
+  padding: 1rem 2rem;
+  background-color: orangered;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  border-color: orangered;
 }
