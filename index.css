@@ -107,4 +107,38 @@ body {
   font-size: 1.29rem;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
+  margin-bottom: 0.857rem;
+}
+.header-suptitle:after {
+  position: absolute;
+  content: " ";
+  height: 0.142rem;
+  width: 4.357rem;
+  background-color: #ffffff;
+  top: 11.56rem;
+  left: 5.5rem;
+}
+.header-suptitle:before {
+  position: absolute;
+  content: " ";
+  height: 0.142rem;
+  width: 4.357rem;
+  background-color: #ffffff;
+  top: 11.56rem;
+  left: 24.5rem;
+}
+.button-view {
+  position: relative;
+}
+.button-2 {
+  position: absolute;
+  top: 30.285rem;
+  left: 24.357rem;
+  padding: 1rem 2rem;
+  background-color: orangered;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  border-color: orangered;
 }
