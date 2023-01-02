@@ -97,7 +97,7 @@ body {
   text-align: center;
   position: absolute;
   left: 12.5rem;
-  top: 15.857rem;
+  top: 9.875rem;
 }
 .header-subtitle {
   font-size: 5.714rem;
@@ -127,18 +127,126 @@ body {
   top: 11.56rem;
   left: 24.5rem;
 }
+
 .button-view {
   position: relative;
 }
-.button-2 {
-  position: absolute;
-  top: 30.285rem;
-  left: 24.357rem;
-  padding: 1rem 2rem;
-  background-color: orangered;
+
+.text-button {
+  text-decoration: none;
   color: #ffffff;
   font-size: 1rem;
   font-weight: 700;
   font-family: "Open Sans", sans-serif;
+
+  transition: color 0.3s linear;
+}
+
+.text-button:hover {
+  color: black;
+}
+
+.button-2 {
+  position: absolute;
+  top: 23.285rem;
+  left: 24.357rem;
+  padding: 1rem 2rem;
+  background-color: orangered;
   border-color: orangered;
+}
+.card-holder {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  box-shadow: 10px 10px 40px 20px #0000001a;
+  width: 24.928rem;
+  margin-right: 31px;
+  background-color: #ffffff;
+  margin-top: -5.714rem;
+  padding: 0.714rem 0.714rem;
+}
+.card span {
+  color: orange;
+}
+.card-img {
+  display: flex;
+  justify-content: center;
+  padding-top: 2.214rem;
+}
+.card-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.428rem;
+  font-family: "Tinos", serif;
+  font-size: 1.857rem;
+  font-weight: 400;
+}
+.card-desc {
+  text-align: center;
+  font-family: "Tinos", serif;
+  font-size: 1.857rem;
+  font-weight: 400;
+  color: #656363;
+}
+.history {
+  margin-top: 11.857rem;
+}
+.history-title span {
+  color: orangered;
+}
+.history-title {
+  font-family: "Tinos", serif;
+  font-size: 3.857rem;
+  font-weight: 400;
+  width: 31.714rem;
+  text-align: center;
+}
+.history-desc {
+  color: #656363;
+  font-size: 1.142rem;
+  width: 31.714rem;
+  text-align: center;
+}
+.history-number {
+  display: flex;
+  width: 31.714rem;
+  justify-content: center;
+  margin-top: 2.857rem;
+  margin-left: 2.142rem;
+}
+.number-item {
+  margin-right: 4.285rem;
+  text-align: center;
+  font-size: 2.857rem;
+  color: rgb(241, 203, 156);
+}
+.number-item span {
+  display: block;
+  color: black;
+  font-size: 2rem;
+}
+.history-holder {
+  display: flex;
+}
+.history-img {
+  position: relative;
+}
+.img-1 {
+  position: absolute;
+  z-index: 1;
+  top: -2rem;
+  left: 12.071rem;
+}
+.img-2 {
+  position: absolute;
+  z-index: 0;
+  top: 9rem;
+  left: 4.071rem;
+}
+.img-3 {
+  position: absolute;
+  z-index: 2;
+  top: 5rem;
+  left: 24.071rem;
 }
